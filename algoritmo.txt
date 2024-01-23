@@ -1,0 +1,61 @@
+ALGORITMO 1 (se elige)
+
+Inicio
+
+Crear digito1
+Crear digito2
+Crear resultado
+
+Definir el espacio en la pantalla para enseñarlos dígitos
+
+Crear boton SUMAR para selecionar con el raton
+Crear boton IGUAL para selecionar con el raton
+Crear boton REINICIAR para selecionar con el raton
+
+Enseñar al usuario por pantalla: "Introducir los numeros a sumar, del 0 al 9. Con el raton hacer un click sobre boton SUMAR, IGUAL o REINICIAR
+
+Si (se hace click sobre el boton SUMAR) 
+    Verificar que el usuario a intruducido solo numeros
+    Guardar el digito en la pantalla para
+    Borrar el numero de la pantalla
+Si (se hace un click en el boton IGUAL)
+    Si (digito1 y digito2 no estan vacios)
+        Verificar que el usuario a intruducido solo numeros
+        Guardar el digito en la pantalla para
+        Procedemos a la suma del digito1 y digito2 y guardar el resultado
+        Enseñar el resultado por pantalla
+    Sino
+        Enseñar al usuario "Error, intentelo de nuevo"
+Fin Sino
+
+Fin
+
+ALGORITMO 2
+
+Inicio
+
+Definir una lista de numeros que se llama "digitos"
+En la lista de los dos primeros son digitos y la tercera es el resultado
+
+Definir el espacio en la pantalla para enseñarlos dígitos
+
+Crear boton SUMAR para selecionar con el raton
+Crear boton IGUAL para selecionar con el raton
+Crear boton REINICIAR para selecionar con el raton
+
+Enseñar al usuario por pantalla: "Introducir los numeros a sumar, del 0 al 9. Con el raton hacer un click sobre boton SUMAR, IGUAL o REINICIAR
+
+Si (se hace click sobre el boton SUMAR) 
+    Verificar que el usuario a intruducido solo numeros
+    Guardar el digito en la lista "Digitos[0]"
+    Borrar el numero de la pantalla
+Si (se hace un click en el boton IGUAL)
+    Si (digito1 y digito2 no estan vacios)
+        Verificar que el usuario a intruducido solo numeros
+        Guardar el digito en la lista "Digitos[1]"
+        Procedemos a la suma de Digitos[0] y Digitos[1] 
+        Guardar el resultado en Digitos[3]
+        Enseñar el resultado por pantalla
+    Sino
+        Enseñar al usuario "Error, intentelo de nuevo"
+Fin Sino

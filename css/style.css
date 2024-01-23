@@ -13,3 +13,37 @@
 /* Colores */
 
 /* ******************************** */
+body {
+  padding: 50px
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: antiquewhite;
+  padding: 100px;
+}
+
+.digito {
+  padding: 15px
+}
+
+button {
+  color: white;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius:10px;
+}
+
+.btnsumar {
+  background-color: red;
+}
+
+.btnigual {
+  background-color: green;
+}
+
+.btniniciar {
+  background-color: rgb(33, 29, 29);
+}
